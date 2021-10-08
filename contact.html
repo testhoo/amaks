@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 
+
+	<title>Крыша над головой</title>
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery.min.js"></script>
+	<!-- Custom Theme files -->
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+	<!-- Custom Theme files -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<!-- for bootstrap working -->
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<!-- //for bootstrap working -->
+
+	<script src="js/responsiveslides.min.js"></script>
+	<script>
+		$(function () {
+			$("#slider").responsiveSlides({
+				auto: true,
+				nav: true,
+				speed: 500,
+				namespace: "callbacks",
+				pager: true,
+			});
+		});
+	</script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!--/script-->
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({scrollTop: $(this.hash).offset().top}, 900);
+			});
+		});
+	</script>
+</head>
+<body>
+<!-- header-section-starts-here -->
+<div class="header">
+	<div class="header-top">
+		<div class="wrap">
+			<div class="top-menu">
+				<ul>
+
+					<li><a href="policy.html">Политика конфиденциальности</a></li>
+					<li><a href="terms.html">Условия и положения</a></li>
+
+				</ul>
+			</div>
+			<div class="num">
+				<p>+7835833677516</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<div class="header-bottom">
+		<div class="logo text-center">
+			<a href="index.html">
+				Собственность
+			</a>
+		</div>
+		<div class="navigation">
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="wrap">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse"
+								data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+
+					</div>
+					<!--/.navbar-header-->
+
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li><a href="index.html">Главная</a></li>
+							<li><a href="blog.html">Статьи</a></li>
+							<li><a href="contact.html">Контакты</a></li>
+							<li><a href="policy.html">Политика конфиденциальности</a></li>
+							<li><a href="terms.html">Условия и положения</a></li>
+						</ul>
+
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<!--/.navbar-collapse-->
+				<!--/.navbar-->
+
+
+			</nav>
+		</div>
+	</div>
+    <!-- header-section-ends-here -->
+    <!-- content-section-starts-here -->
+    <div class="main-body">
+        <div class="wrap">
+            <ol class="breadcrumb">
+                <li><a href="index.html">Главная</a></li>
+                <li class="active">Контакты</li>
+            </ol>
+
+            <!--contact-section-starts-->
+            <div class="contact-section">
+
+                <div class="contact_grid">
+                    <div class="col-md-8 contact-top">
+                        <h3>Подписаться</h3>
+
+                        <form action="thanks.html" style="width: 650px">
+                            <div class="to" style="display: flex; flex-wrap: wrap;">
+                                <input type="text" class="text" value="Новые телефона" >
+                                <input type="text" class="text" value="Email" >
+                                <input type="text" class="text" value="Номер телефона">
+                            </div>
+                            <div class="text">
+                            <textarea ></textarea>
+                            </div>
+                            <div class="form-submit1">
+								<input type="checkbox" name="terms" value="check" required=""/>
+								<a href="policy.html" target="_blank">
+									Я прочитал и согласен с условиями пользовательского соглашения
+								</a>
+
+								<input name="submit" type="submit" id="submit" value="Отправить"><br>
+
+                            </div>
+                            <div class="clearfix"></div>
+                        </form>
+                    </div>
+
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <!--contact-section-ends-->
+        </div>
+    </div>
+</div>
+<!-- content-section-ends-here -->
+<!-- footer-section-starts-here -->
+<div class="footer">
+    <div class="footer-top">
+        <div class="wrap">
+
+
+            <div class="col-md-3 col-xs-12 footer-grid">
+                <h4 class="footer-head">Контакты</h4>
+
+                <address>
+                    <ul class="location">
+                        <li><span class="glyphicon glyphicon-map-marker"></span></li>
+                        <li>842331, Сахалинская область, город Дорохово, шоссе Бухарестская, 68</li>
+                        <div class="clearfix"></div>
+                    </ul>
+                    <ul class="location">
+                        <li><span class="glyphicon glyphicon-earphone"></span></li>
+                        <li>+7835833677516</li>
+                        <div class="clearfix"></div>
+                    </ul>
+                    <ul class="location">
+                        <li><span class="glyphicon glyphicon-envelope"></span></li>
+                        <li><a href="#">nikolaev.izolda@teterina.net</a></li>
+                        <div class="clearfix"></div>
+                    </ul>
+                </address>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="wrap">
+            <div class="copyrights col-md-6">
+                <p> Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                    All rights reserved
+                </p>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<div class='cookie-banner'>
+    <p>
+        Сайт использует файлы cookie. Они позволяют узнавать вас и получать информацию о вашем пользовательском опыте.Продолжая просмотр сайта, я соглашаюсь с использованием файлов cookie владельцем сайта в соответствии с <a target="_blank" href="https://en.wikipedia.org/wiki/HTTP_cookie">Политикой cookie</a>
+    </p>
+    <button class='close-cookie'>&times;</button>
+</div>
+<script>
+    window.onload = function () {
+        $('.close-cookie').click(function () {
+            $('.cookie-banner').fadeOut();
+        })
+    }
+</script>
+<script>
+    let elems = document.querySelectorAll('.server-name');
+    elems.forEach((elem) => {
+        elem.innerHTML = window.location.hostname
+    })
+</script>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        /*
+        var defaults = {
+        wrapID: 'toTop', // fading element id
+        wrapHoverID: 'toTopHover', // fading element hover id
+        scrollSpeed: 1200,
+        easingType: 'linear'
+        };
+        */
+        $().UItoTop({easingType: 'easeOutQuart'});
+    });
+</script>
+
+<!---->
+</body>
+</html>
